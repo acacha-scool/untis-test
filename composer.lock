@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5949f059fc141f6356374a279ed86a90",
+    "content-hash": "dffdcbc8fbcb8c621c96c36174963444",
     "packages": [
         {
             "name": "acacha/admin-lte-template-laravel",
@@ -1936,6 +1936,76 @@
                 "uuid"
             ],
             "time": "2017-08-04T13:39:04+00:00"
+        },
+        {
+            "name": "scool/untis",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../untis",
+                "reference": "cb6973fb6e7fec04865aa426a0bea6a3e5482ff7",
+                "shasum": null
+            },
+            "require": {
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.4.3",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Scool\\Untis\\Providers\\UntisServiceProvider"
+                    ],
+                    "aliases": {
+                        "ScoolStaff": "Scool\\Untis\\Untis"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Scool\\Untis\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Scool\\Untis\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit"
+                ],
+                "check-style": [
+                    "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+                ],
+                "fix-style": [
+                    "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergi Tur Badenas",
+                    "email": "sergiturbadenas@gmail.com",
+                    "homepage": "https://github.com/acacha",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Laravel package for Untis software",
+            "homepage": "https://github.com/scool/untis",
+            "keywords": [
+                "scool",
+                "untis",
+                "untis"
+            ]
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4623,7 +4693,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "scool/untis": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

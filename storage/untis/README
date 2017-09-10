@@ -1,0 +1,78 @@
+IMPORTANT: A la ayuda de l'aplicació (menu Ajuda) hi ha la típica ayuda Windows amb la info de tots els camps
+
+1 -> Horarios		->	GPU0001.TXT
+2 -> Clases		->	GPU0002.TXT
+3 -> Grupos		-> 	GPU0003.TXT
+4 -> Professores 	->	GPU0004.TXT
+5 -> Aulas		-> 	GPU0005.TXT
+6 -> Materias		-> 	GPU0006.TXT
+
+
+1 Horarios(GPU0001.TXT) -> Lliçons
+
+1-> Codi Clase		3041
+2-> Grup de classe	CAM
+3-> Codi profe		03
+4-> Codi materia	510	
+5-> Codi Aula		INFCUINA
+6-> Codi dia		
+7-> Codi hora
+8-> Duració de la hora (sempre blanc?)
+
+3041,"CAM","03","510","INFCUINA",2,2,,
+
+2 Clases
+
+1-> Codi clase
+2-> Hores setmanals
+3-> Hores setmanals grup
+4-> Hores setmanals profe
+5-> Grupo
+6-> Profesor
+7-> Materia
+8-> Aula especifica
+9-> EStadística 1
+10-> Num alumnos
+11-> Suma real
+12-> Filtro
+13-> TExto
+
+3 GRUPOS (de clase)
+
+"2DAM","*2n Desenv Aplic Mult (S)",,"20.4","X",,,,,,,,,,"CFS",,0,0,,,,,,,,,,1.00000,,"38",
+
+1-> Codi grup
+2-> Nom (llard)
+3-> EStadística 1
+4-> Aula
+5-> Símbolo especifico
+6-> Campo vacio
+7-> Min horas dia
+8-> Max horas dia
+
+
+4 Professores
+
+1-> Codi profe
+2-> Nom
+3-> Estadística 1
+4-> Número personal
+5-> Aula
+6-> Símbolo
+7-> CAmpo vacio
+8-> Horas/dia min
+9-> Horas/dia max
+
+"40","Tur, Sergi (D)",,,,"X",,1,6,0,2,,,5,,12.00000,"Informàtica","1000",,,,,"Coord. Inform.","507",,,,"1.00000",,,"0",,,,,,,,,,,
+
+5 Aulas	GPU0005.TXT
+
+1-> Codi
+2-> Nom complet
+
+"20.2","Aula 1INFMA/2ASIX",,,,,2,42,,,,,,,,,,
+
+6 Materias GPU0006.TXT
+
+
+
