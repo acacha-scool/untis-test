@@ -1,0 +1,2 @@
+codigo,horas_semanales,horas_semanales_profe,horas_semanales_grupo,grupo,profesor,materia,aula,1,2,3,4,5,6,fecha_inicio,fecha_final,7,8,9,aula_propia,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33
+3567,1,1,1,"2DAM","117","297","20.4",,0,1.00000,,,,"20160706","20170630",0.00520,,,"20.4",,,,"n",,,,,,,,,,0,0,,,,,100000,1.00000,,,

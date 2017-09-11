@@ -1,0 +1,2 @@
+codigo,nombre,1,2,3,4,5,6,7,8,9,10,11,12,13,codigo_estudio,estudio,14,15,16,17,nombre_corto,18
+"285","2n DAM-M7 - Desenvolupament d'interfícies",,,,,,,0,14,,,,,1.00000,"DAM","Desenvolupament d'aplicacions multiplataforma",,,,"M 7",
