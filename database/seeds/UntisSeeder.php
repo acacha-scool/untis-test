@@ -3,9 +3,9 @@
 use Illuminate\Database\Seeder;
 
 /**
- * Class DatabaseSeeder
+ * Class UntisSeeder.
  */
-class DatabaseSeeder extends Seeder
+class UntisSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(UntisSeeder::class);
+        seed_untis();
     }
 }
